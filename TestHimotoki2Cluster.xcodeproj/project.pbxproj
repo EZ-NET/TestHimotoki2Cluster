@@ -7,19 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B1AF38AC1CCE58B6004B2218 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AF38AB1CCE58B6004B2218 /* AppDelegate.swift */; };
-		B1AF38AE1CCE58B6004B2218 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AF38AD1CCE58B6004B2218 /* ViewController.swift */; };
+		142E37B239D732AE27CF89C0 /* Pods_TestHimotoki2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31CAAE81BA465195E58D2150 /* Pods_TestHimotoki2.framework */; };
 		B1AF38B01CCE58B6004B2218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1AF38AF1CCE58B6004B2218 /* Assets.xcassets */; };
 		B1AF38B31CCE58B6004B2218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1AF38B11CCE58B6004B2218 /* Main.storyboard */; };
+		B1AF38BC1CCE5A33004B2218 /* Cluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AF38BB1CCE5A33004B2218 /* Cluster.swift */; };
+		B1AF38CC1CCE66BC004B2218 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AF38CB1CCE66BC004B2218 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E3D8F109C07FAD04ABDEDBE /* Pods-TestHimotoki2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHimotoki2.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestHimotoki2/Pods-TestHimotoki2.release.xcconfig"; sourceTree = "<group>"; };
+		31CAAE81BA465195E58D2150 /* Pods_TestHimotoki2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestHimotoki2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		608D8E1CCC2688847B53F5BA /* Pods-TestHimotoki2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHimotoki2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestHimotoki2/Pods-TestHimotoki2.debug.xcconfig"; sourceTree = "<group>"; };
 		B1AF38A81CCE58B6004B2218 /* TestHimotoki2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHimotoki2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1AF38AB1CCE58B6004B2218 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B1AF38AD1CCE58B6004B2218 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1AF38AF1CCE58B6004B2218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1AF38B21CCE58B6004B2218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1AF38B41CCE58B6004B2218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1AF38BA1CCE58CF004B2218 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		B1AF38BB1CCE5A33004B2218 /* Cluster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cluster.swift; sourceTree = "<group>"; };
+		B1AF38CB1CCE66BC004B2218 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +32,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				142E37B239D732AE27CF89C0 /* Pods_TestHimotoki2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12C7049C9406A586E21DB219 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				608D8E1CCC2688847B53F5BA /* Pods-TestHimotoki2.debug.xcconfig */,
+				0E3D8F109C07FAD04ABDEDBE /* Pods-TestHimotoki2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B1AF389F1CCE58B6004B2218 = {
 			isa = PBXGroup;
 			children = (
+				B1AF38BA1CCE58CF004B2218 /* Podfile */,
 				B1AF38AA1CCE58B6004B2218 /* TestHimotoki2 */,
 				B1AF38A91CCE58B6004B2218 /* Products */,
+				12C7049C9406A586E21DB219 /* Pods */,
+				CB9075F9F19D2B4D20411754 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,13 +70,21 @@
 		B1AF38AA1CCE58B6004B2218 /* TestHimotoki2 */ = {
 			isa = PBXGroup;
 			children = (
-				B1AF38AB1CCE58B6004B2218 /* AppDelegate.swift */,
-				B1AF38AD1CCE58B6004B2218 /* ViewController.swift */,
+				B1AF38CB1CCE66BC004B2218 /* main.swift */,
+				B1AF38BB1CCE5A33004B2218 /* Cluster.swift */,
 				B1AF38AF1CCE58B6004B2218 /* Assets.xcassets */,
 				B1AF38B11CCE58B6004B2218 /* Main.storyboard */,
 				B1AF38B41CCE58B6004B2218 /* Info.plist */,
 			);
 			path = TestHimotoki2;
+			sourceTree = "<group>";
+		};
+		CB9075F9F19D2B4D20411754 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31CAAE81BA465195E58D2150 /* Pods_TestHimotoki2.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,9 +94,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1AF38B71CCE58B6004B2218 /* Build configuration list for PBXNativeTarget "TestHimotoki2" */;
 			buildPhases = (
+				2DF2690A9B82D97DB7E660B9 /* 📦 Check Pods Manifest.lock */,
 				B1AF38A41CCE58B6004B2218 /* Sources */,
 				B1AF38A51CCE58B6004B2218 /* Frameworks */,
 				B1AF38A61CCE58B6004B2218 /* Resources */,
+				A083EEE6D72CB2D24B020F5E /* 📦 Embed Pods Frameworks */,
+				AA946EDF98B36A5C9B30DE39 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,13 +155,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DF2690A9B82D97DB7E660B9 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A083EEE6D72CB2D24B020F5E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestHimotoki2/Pods-TestHimotoki2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA946EDF98B36A5C9B30DE39 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestHimotoki2/Pods-TestHimotoki2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B1AF38A41CCE58B6004B2218 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1AF38AE1CCE58B6004B2218 /* ViewController.swift in Sources */,
-				B1AF38AC1CCE58B6004B2218 /* AppDelegate.swift in Sources */,
+				B1AF38CC1CCE66BC004B2218 /* main.swift in Sources */,
+				B1AF38BC1CCE5A33004B2218 /* Cluster.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +311,7 @@
 		};
 		B1AF38B81CCE58B6004B2218 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 608D8E1CCC2688847B53F5BA /* Pods-TestHimotoki2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -246,6 +324,7 @@
 		};
 		B1AF38B91CCE58B6004B2218 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E3D8F109C07FAD04ABDEDBE /* Pods-TestHimotoki2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -275,6 +354,7 @@
 				B1AF38B91CCE58B6004B2218 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
