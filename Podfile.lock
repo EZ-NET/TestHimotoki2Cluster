@@ -1,0 +1,21 @@
+PODS:
+  - Himotoki (2.0.1)
+
+DEPENDENCIES:
+  - Himotoki (from `https://github.com/ikesyo/Himotoki.git`)
+
+EXTERNAL SOURCES:
+  Himotoki:
+    :git: https://github.com/ikesyo/Himotoki.git
+
+CHECKOUT OPTIONS:
+  Himotoki:
+    :commit: 91fc16a981ecd419c1222c2c3f7634fcebb0a0cb
+    :git: https://github.com/ikesyo/Himotoki.git
+
+SPEC CHECKSUMS:
+  Himotoki: 21fa47e457cc7da39996fe7825a0e97b00344cf1
+
+PODFILE CHECKSUM: 5a8631bf4ff3507c50161699ada8abe9fa7bf8ad
+
+COCOAPODS: 1.0.0.beta.6

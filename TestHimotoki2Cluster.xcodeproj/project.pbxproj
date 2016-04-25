@@ -12,19 +12,23 @@
 		B1AF38B31CCE58B6004B2218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1AF38B11CCE58B6004B2218 /* Main.storyboard */; };
 		B1AF38BC1CCE5A33004B2218 /* Cluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AF38BB1CCE5A33004B2218 /* Cluster.swift */; };
 		B1AF38CC1CCE66BC004B2218 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AF38CB1CCE66BC004B2218 /* main.swift */; };
+		B48CC0AA070D3D6466B8447F /* Pods_TestHimotoki2Cluster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BDEADD2631FEB688FBD22DB /* Pods_TestHimotoki2Cluster.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BDEADD2631FEB688FBD22DB /* Pods_TestHimotoki2Cluster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestHimotoki2Cluster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E3D8F109C07FAD04ABDEDBE /* Pods-TestHimotoki2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHimotoki2.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestHimotoki2/Pods-TestHimotoki2.release.xcconfig"; sourceTree = "<group>"; };
 		31CAAE81BA465195E58D2150 /* Pods_TestHimotoki2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestHimotoki2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		608D8E1CCC2688847B53F5BA /* Pods-TestHimotoki2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHimotoki2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestHimotoki2/Pods-TestHimotoki2.debug.xcconfig"; sourceTree = "<group>"; };
-		B1AF38A81CCE58B6004B2218 /* TestHimotoki2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHimotoki2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68546918C66B4A449238379B /* Pods-TestHimotoki2Cluster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHimotoki2Cluster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestHimotoki2Cluster/Pods-TestHimotoki2Cluster.debug.xcconfig"; sourceTree = "<group>"; };
+		B1AF38A81CCE58B6004B2218 /* TestHimotoki2Cluster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHimotoki2Cluster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1AF38AF1CCE58B6004B2218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1AF38B21CCE58B6004B2218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1AF38B41CCE58B6004B2218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1AF38BA1CCE58CF004B2218 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		B1AF38BA1CCE58CF004B2218 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B1AF38BB1CCE5A33004B2218 /* Cluster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cluster.swift; sourceTree = "<group>"; };
 		B1AF38CB1CCE66BC004B2218 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C4D81559A7BB3372BF6FE418 /* Pods-TestHimotoki2Cluster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHimotoki2Cluster.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestHimotoki2Cluster/Pods-TestHimotoki2Cluster.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				142E37B239D732AE27CF89C0 /* Pods_TestHimotoki2.framework in Frameworks */,
+				B48CC0AA070D3D6466B8447F /* Pods_TestHimotoki2Cluster.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				608D8E1CCC2688847B53F5BA /* Pods-TestHimotoki2.debug.xcconfig */,
 				0E3D8F109C07FAD04ABDEDBE /* Pods-TestHimotoki2.release.xcconfig */,
+				68546918C66B4A449238379B /* Pods-TestHimotoki2Cluster.debug.xcconfig */,
+				C4D81559A7BB3372BF6FE418 /* Pods-TestHimotoki2Cluster.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -62,7 +69,7 @@
 		B1AF38A91CCE58B6004B2218 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1AF38A81CCE58B6004B2218 /* TestHimotoki2.app */,
+				B1AF38A81CCE58B6004B2218 /* TestHimotoki2Cluster.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				31CAAE81BA465195E58D2150 /* Pods_TestHimotoki2.framework */,
+				0BDEADD2631FEB688FBD22DB /* Pods_TestHimotoki2Cluster.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -90,9 +98,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B1AF38A71CCE58B6004B2218 /* TestHimotoki2 */ = {
+		B1AF38A71CCE58B6004B2218 /* TestHimotoki2Cluster */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1AF38B71CCE58B6004B2218 /* Build configuration list for PBXNativeTarget "TestHimotoki2" */;
+			buildConfigurationList = B1AF38B71CCE58B6004B2218 /* Build configuration list for PBXNativeTarget "TestHimotoki2Cluster" */;
 			buildPhases = (
 				2DF2690A9B82D97DB7E660B9 /* 📦 Check Pods Manifest.lock */,
 				B1AF38A41CCE58B6004B2218 /* Sources */,
@@ -105,9 +113,9 @@
 			);
 			dependencies = (
 			);
-			name = TestHimotoki2;
+			name = TestHimotoki2Cluster;
 			productName = TestHimotoki2;
-			productReference = B1AF38A81CCE58B6004B2218 /* TestHimotoki2.app */;
+			productReference = B1AF38A81CCE58B6004B2218 /* TestHimotoki2Cluster.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B1AF38A31CCE58B6004B2218 /* Build configuration list for PBXProject "TestHimotoki2" */;
+			buildConfigurationList = B1AF38A31CCE58B6004B2218 /* Build configuration list for PBXProject "TestHimotoki2Cluster" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -138,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B1AF38A71CCE58B6004B2218 /* TestHimotoki2 */,
+				B1AF38A71CCE58B6004B2218 /* TestHimotoki2Cluster */,
 			);
 		};
 /* End PBXProject section */
@@ -183,7 +191,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestHimotoki2/Pods-TestHimotoki2-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestHimotoki2Cluster/Pods-TestHimotoki2Cluster-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AA946EDF98B36A5C9B30DE39 /* 📦 Copy Pods Resources */ = {
@@ -198,7 +206,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestHimotoki2/Pods-TestHimotoki2-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestHimotoki2Cluster/Pods-TestHimotoki2Cluster-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -311,34 +319,34 @@
 		};
 		B1AF38B81CCE58B6004B2218 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 608D8E1CCC2688847B53F5BA /* Pods-TestHimotoki2.debug.xcconfig */;
+			baseConfigurationReference = 68546918C66B4A449238379B /* Pods-TestHimotoki2Cluster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TestHimotoki2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-style.appid.TestHimotoki2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TestHimotoki2Cluster;
 			};
 			name = Debug;
 		};
 		B1AF38B91CCE58B6004B2218 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E3D8F109C07FAD04ABDEDBE /* Pods-TestHimotoki2.release.xcconfig */;
+			baseConfigurationReference = C4D81559A7BB3372BF6FE418 /* Pods-TestHimotoki2Cluster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TestHimotoki2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-style.appid.TestHimotoki2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TestHimotoki2Cluster;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B1AF38A31CCE58B6004B2218 /* Build configuration list for PBXProject "TestHimotoki2" */ = {
+		B1AF38A31CCE58B6004B2218 /* Build configuration list for PBXProject "TestHimotoki2Cluster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1AF38B51CCE58B6004B2218 /* Debug */,
@@ -347,7 +355,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1AF38B71CCE58B6004B2218 /* Build configuration list for PBXNativeTarget "TestHimotoki2" */ = {
+		B1AF38B71CCE58B6004B2218 /* Build configuration list for PBXNativeTarget "TestHimotoki2Cluster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1AF38B81CCE58B6004B2218 /* Debug */,
