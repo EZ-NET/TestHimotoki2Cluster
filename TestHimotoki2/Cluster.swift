@@ -8,17 +8,17 @@
 
 import Himotoki
 
-protocol ClusterInterface {
+protocol NantokaClusterInterface {
     
     var type : Int { get }
     var title: String { get }
 }
 
-class Cluster : ClusterInterface {
+class NantokaCluster : NantokaClusterInterface {
     
-    private var source: ClusterInterface
+    private var source: NantokaClusterInterface
     
-    required init<T:ClusterInterface>(source: T) {
+    required init<T:NantokaClusterInterface>(source: T) {
         
         self.source = source
     }
@@ -34,7 +34,7 @@ class Cluster : ClusterInterface {
     }
 }
 
-extension Cluster : Decodable {
+extension NantokaCluster : Decodable {
     
     static func decode(e: Extractor) throws -> Self {
         
@@ -43,11 +43,11 @@ extension Cluster : Decodable {
         switch type {
             
         case 0:
-            return self.init(source: B(e: e))
+            return self.init(source: ClusterB(e: e))
         case 1:
-            return self.init(source: C(e: e))
+            return self.init(source: ClusterC(e: e))
         case 2:
-            return self.init(source: A(e: e))
+            return self.init(source: ClusterA(e: e))
             
         default:
             fatalError()
@@ -56,7 +56,7 @@ extension Cluster : Decodable {
     
 }
 
-extension Cluster : CustomDebugStringConvertible {
+extension NantokaCluster : CustomDebugStringConvertible {
     
     var debugDescription: String {
         
@@ -64,7 +64,7 @@ extension Cluster : CustomDebugStringConvertible {
     }
 }
 
-class A: ClusterInterface {
+class ClusterA: NantokaClusterInterface {
     
     var type : Int = 0
     var title: String = ""
@@ -75,7 +75,7 @@ class A: ClusterInterface {
     }
 }
 
-class B: ClusterInterface {
+class ClusterB: NantokaClusterInterface {
     
     var type : Int = 0
     var title: String = ""
@@ -88,7 +88,7 @@ class B: ClusterInterface {
     }
 }
 
-class C: ClusterInterface {
+class ClusterC: NantokaClusterInterface {
     
     var type : Int = 0
     var title: String = ""
