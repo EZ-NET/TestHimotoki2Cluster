@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		142E37B239D732AE27CF89C0 /* Pods_TestHimotoki2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31CAAE81BA465195E58D2150 /* Pods_TestHimotoki2.framework */; };
+		B1601CC61CCEED1E0066002F /* CustomDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1601CC51CCEED1E0066002F /* CustomDecodable.swift */; };
+		B1601CC81CCEEE760066002F /* #118.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1601CC71CCEEE760066002F /* #118.swift */; };
 		B1AF38B01CCE58B6004B2218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1AF38AF1CCE58B6004B2218 /* Assets.xcassets */; };
 		B1AF38B31CCE58B6004B2218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1AF38B11CCE58B6004B2218 /* Main.storyboard */; };
 		B1AF38BC1CCE5A33004B2218 /* Cluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AF38BB1CCE5A33004B2218 /* Cluster.swift */; };
@@ -21,6 +23,8 @@
 		31CAAE81BA465195E58D2150 /* Pods_TestHimotoki2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestHimotoki2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		608D8E1CCC2688847B53F5BA /* Pods-TestHimotoki2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHimotoki2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestHimotoki2/Pods-TestHimotoki2.debug.xcconfig"; sourceTree = "<group>"; };
 		68546918C66B4A449238379B /* Pods-TestHimotoki2Cluster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHimotoki2Cluster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestHimotoki2Cluster/Pods-TestHimotoki2Cluster.debug.xcconfig"; sourceTree = "<group>"; };
+		B1601CC51CCEED1E0066002F /* CustomDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDecodable.swift; sourceTree = "<group>"; };
+		B1601CC71CCEEE760066002F /* #118.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "#118.swift"; sourceTree = "<group>"; };
 		B1AF38A81CCE58B6004B2218 /* TestHimotoki2Cluster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHimotoki2Cluster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1AF38AF1CCE58B6004B2218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1AF38B21CCE58B6004B2218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				B1AF38CB1CCE66BC004B2218 /* main.swift */,
+				B1601CC51CCEED1E0066002F /* CustomDecodable.swift */,
 				B1AF38BB1CCE5A33004B2218 /* Cluster.swift */,
+				B1601CC71CCEEE760066002F /* #118.swift */,
 				B1AF38AF1CCE58B6004B2218 /* Assets.xcassets */,
 				B1AF38B11CCE58B6004B2218 /* Main.storyboard */,
 				B1AF38B41CCE58B6004B2218 /* Info.plist */,
@@ -216,6 +222,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1601CC61CCEED1E0066002F /* CustomDecodable.swift in Sources */,
+				B1601CC81CCEEE760066002F /* #118.swift in Sources */,
 				B1AF38CC1CCE66BC004B2218 /* main.swift in Sources */,
 				B1AF38BC1CCE5A33004B2218 /* Cluster.swift in Sources */,
 			);
